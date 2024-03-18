@@ -1,0 +1,135 @@
+#Website{
+    border: solid 3px;
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#image{
+    display: flex;
+    gap: 10px;
+    background-color: beige;
+    
+}
+.image1{
+  background-image: url("Images/image\ plant1.jpeg");
+  height: 500px;
+  background-repeat: no-repeat;
+  width: 70%; 
+  margin-left: 20%;
+  margin-top: 10%;
+  
+}
+.image2{
+    background-image: url("Images/image2.jpeg");
+    height: 250px;
+    background-repeat: no-repeat;
+    width: 100%;
+  
+}
+.image3{
+    background-image: url("Images/family-2.jpg");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 150px;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+}
+#text{
+    margin-bottom: 50%;
+}
+.images23{
+    margin-right: 20%;
+}
+.section1{
+    background-image: url("Images/S1.jpeg");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 200px;
+}
+.section2{
+    background-image: url("Images/S2.jpeg");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 200px; 
+}
+.section3{
+    background-image: url("Images/S3.jpeg");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 200px;
+}
+#section{
+    display: flex;
+    gap: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.words{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 20px;
+}
+#body{
+   display: flex;
+   gap: 500px;
+   background-color: beige;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.body001{
+    display: flex;
+}
+button{
+    color: white;
+    background-color: green;
+}
+.feature{
+    margin-left: 40%;
+}
+.vaces{
+    display: flex;
+    gap: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:bisque;
+}
+.leaves{
+    background-image: url("Images/leaves1.png");
+}
+.plants{
+    display: flex;
+    gap: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.latest{
+    display: flex;
+    gap: 100px;
+    gap: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.word{
+    margin-left: 10%;
+}
+#sentence{
+    margin: 50%;
+}
+@media screen and(min-width:412px) {
+    .head{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: solid 1px;
+        
+    }
+  
+}
